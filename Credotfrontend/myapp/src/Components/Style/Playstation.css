@@ -1,0 +1,103 @@
+
+.main-section {
+    margin-top: 50px; 
+    background: #FEF4F3;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+  }
+  
+
+  h4.playhead, p.palypara, h2.headh2 {
+    line-height:2.2;
+  }
+  .col-7, .col-5 {
+    padding: 15px; 
+  }
+  
+  .playhead, .palypara, .headh2, .cta1 {
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  img.playstation {
+    max-width: 100%;
+    height: auto; 
+  }
+
+  button.cta1 {
+    background-color: #e44d26; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  
+  button.cta1:hover {
+    background-color: #c1351d;
+  }
+  
+
+  img.playstation:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+  }
+
+
+
+
+
+  
+  
+  @media (max-width: 767px) {
+    .main-section {
+      flex-direction: column; 
+    }
+  
+    .col-7, .col-5 {
+      width: 100%; 
+    }
+  
+    h4.playhead {
+      font-size: 24px; 
+    }
+  
+    p.palypara {
+      font-size: 14px; 
+    }
+  
+    h2.headh2 {
+      font-size: 30px; 
+    }
+  
+    button.cta1 {
+      width: 100px; 
+      margin: 10px 0; 
+    }
+  }
+  
+  
+  @media (min-width: 768px) {
+    .col-7 {
+      flex: 0 0 58.333333%; 
+    }
+  
+    .col-5 {
+      flex: 0 0 41.666667%; 
+    }
+  }
+  
+  
+  @media (min-width: 992px) {
+   
+  }
+  
+ 
+  @media (min-width: 1200px) {
+   
+  }
+  
